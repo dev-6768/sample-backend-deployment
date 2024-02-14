@@ -8,7 +8,7 @@ app.get("/", (req, res) => {
 })
 
 app.get("/about", (req, res) => {
-    res.send("")
+    res.send("Hello this is Sanidhya Mishra and I am the creator of this website");
 })  
 
 app.listen(process.env.PORT, () => {
